@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 .main-page {
   display: block;
@@ -41,7 +42,7 @@
 .list-item, .section-title {
   list-style:none;
 }
-.input,.btn{
+.input,.btn {
   outline:none;
 }
 .btn {
@@ -97,7 +98,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,7 +115,7 @@
   font-size: 18px;
   width: 226px;
 }
-.input-task{
+.input-task {
   width: 226px
 }
 .btn-img {
